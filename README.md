@@ -1,54 +1,61 @@
-Plant Disease Detection using Deep Learning
-Overview
+# Plant Disease Detection
 
-This project is a Deep Learning-based Plant Disease Detection System developed using TensorFlow and Keras. The model is trained on leaf images from the PlantVillage dataset and can identify plant diseases from images of plant leaves.
+A Deep Learning-based computer vision project that identifies plant diseases from leaf images using Convolutional Neural Networks (CNNs). The model is trained using TensorFlow/Keras and exported to TensorFlow Lite for mobile deployment.
 
-The trained model is also converted to TensorFlow Lite (TFLite), making it suitable for deployment in Android and edge-device applications.
+## Project Overview
 
-Features
-Plant disease classification using CNNs
-Image preprocessing and augmentation
-TensorFlow/Keras model training
-TensorFlow Lite model conversion
-Mobile deployment ready
-High accuracy disease prediction
-Scalable for additional crops and diseases
-Project Structure
+This project aims to automate plant disease identification from leaf images. Early disease detection can help farmers take preventive measures and improve crop productivity.
+
+The model is trained on the PlantVillage dataset and can be integrated into Android applications using TensorFlow Lite.
+
+## Features
+
+* Plant disease classification from leaf images
+* CNN-based deep learning architecture
+* TensorFlow and Keras implementation
+* TensorFlow Lite model export
+* Mobile deployment ready
+* Easy to extend with additional crops and diseases
+
+## Technologies Used
+
+* Python
+* TensorFlow
+* Keras
+* OpenCV
+* NumPy
+* Matplotlib
+* Jupyter Notebook
+* TensorFlow Lite
+
+## Project Structure
+
+```text
 plant-disease-detection/
-│
 ├── plant_detection_Model.ipynb
 ├── plant_disease_model.keras
 ├── plant_disease_model.tflite
 ├── requirements.txt
 ├── README.md
 └── screenshots/
-Technologies Used
-Python
-TensorFlow
-Keras
-NumPy
-Matplotlib
-OpenCV
-Jupyter Notebook
-Dataset
+```
+
+## Dataset
 
 This project uses the PlantVillage dataset for training and evaluation.
 
-Note: The dataset is not included in this repository due to its large size.
+The dataset is not included in this repository due to its large size.
 
-Model Pipeline
-Dataset Collection
-Data Preprocessing
-Data Augmentation
-CNN Model Training
-Model Evaluation
-TensorFlow Lite Conversion
-Deployment Ready Model Generation
+## Workflow
 
-TensorFlow Lite Deployment
+1. Data Collection
+2. Data Preprocessing
+3. Data Augmentation
+4. CNN Model Training
+5. Model Evaluation
+6. TensorFlow Lite Conversion
+7. Mobile Deployment
 
-The trained model has been exported to TensorFlow Lite format:
 
-plant_disease_model.tflite
 
-This model can be integrated into Android applications for real-time plant disease detection.
+
